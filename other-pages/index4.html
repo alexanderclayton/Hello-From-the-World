@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style4.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Ciao Mondo!!</h1>
+
+    </header>
+    <main>
+        <div id="buttons-flags">
+            <div>
+                <button onclick="goToEnglish()">Inglese</button>
+                <button onclick="goToSpanish()">Spagnolo</button>
+                <button onclick="goToFrench()">Francese</button>
+            </div>
+            <div>
+                <button onclick="goToRussian()">Russo</button>
+                <button onclick="goToGerman()">Tedesco</button>
+                <button onclick="goToChinese()">Cinese</button>
+            </div>
+            <div>
+                <button onclick="goToHindi()">Hindi</button>
+                <button onclick="goToArabic()">Arabo</button>
+                <button onclick="goToJapanese()">Giapponese</button>
+            </div>
+            <div id="flags">
+                <div>
+                    <img src="../assets/images/Italy Flag.png" alt="Italy" title="Italy" onclick="flagWikipedia()">
+                    <img src="../assets/images/San Marino Flag.png" alt="San Marino" title="San_Marino" onclick="flagWikipedia()">
+                    <img src="../assets/images/Swizerland Flag.png" alt="Switzerland" title="Switzerland" onclick="flagWikipedia()">
+                    <img src="../assets/images/Vatican City Flag.png" alt="Vatican City" title="Vatican_City" onclick="flagWikipedia()">
+                </div>
+            </div>
+        </div>
+        <div id="wiki-section">
+            <div id="country-top">
+                <img src="" alt="country flag" id="country-flag" class="hidden">
+                <h2 id="country-name"></h2>
+            </div>
+            <div id="wiki-data"></div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../assets/javascript/onescript.js"></script>
+    <script src="../assets/javascript/flags.js" ></script>
+</body>
+</html>

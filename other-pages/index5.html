@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style5.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Привет, мир!!</h1>
+
+    </header>
+    <main>
+        <div id="buttons-flags">
+            <div>
+                <button onclick="goToEnglish()">Английский</button>
+                <button onclick="goToSpanish()">испанский</button>
+                <button onclick="goToFrench()">Французский</button>
+            </div>
+            <div>
+                <button onclick="goToItalian()">итальянский</button>
+                <button onclick="goToGerman()">Немецкий</button>
+                <button onclick="goToChinese()">китайский язык</button>
+            </div>
+            <div>
+                <button onclick="goToHindi()">хинди</button>
+                <button onclick="goToArabic()">арабский</button>
+                <button onclick="goToJapanese()">Японский</button>
+            </div>
+            <div id="flags">
+                <div>
+                    <img src="../assets/images/Russia Flag.png" alt="Russia" title="Russia" onclick="flagWikipedia()">
+                    <img src="../assets/images/Belarus Flag.png" alt="Belarus" title="Belarus" onclick="flagWikipedia()">
+                    <img src="../assets/images/Kazakhstan Flag.png" alt="Kazakhstan" title="Kazakhstan" onclick="flagWikipedia()">
+                    <img src="../assets/images/Kyrgyzstan Flag.png" alt="Kyrgyzstan" title="Kyrgyzstan" onclick="flagWikipedia()">
+                </div>
+            </div>
+        </div>
+        <div id="wiki-section">
+            <div id="country-top">
+                <img src="" alt="country flag" id="country-flag" class="hidden">
+                <h2 id="country-name"></h2>
+            </div>
+            <div id="wiki-data"></div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../assets/javascript/onescript.js"></script>
+    <script src="../assets/javascript/flags.js" ></script>
+</body>
+</html>

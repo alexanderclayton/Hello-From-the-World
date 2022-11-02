@@ -1,0 +1,230 @@
+:root {
+    --blue: rgb(3, 12, 85);
+    --pink: rgb(179, 4, 4);
+    --dark-blue: rgb(25, 25, 103);
+    --white: white;
+}
+
+body {
+    background-color: var(--blue);
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: var(--white);
+    font-size: 5rem;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons-flags {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons-flags div {
+    display: flex;
+    justify-content: center;
+    
+}
+
+button {
+    height: 6rem;
+    width: 13rem;
+    font-size: 2rem;
+    background-color: var(--pink);
+    border-radius: 2rem;
+    color: var(--white);
+    margin: 10px;
+}
+
+button:hover {
+    cursor: pointer;
+    color: var(--dark-blue);
+    box-shadow: inset 10px 10px 10px var(--dark-blue);
+}
+
+#flags {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    height: 5rem;
+    width: 7.5rem;
+    margin: .75rem 1rem;
+    border: solid 2px black
+}
+
+img:hover {
+    cursor: pointer;
+    border: solid 2px var(--white);
+}
+
+#wiki-section {
+    display: flex;
+    flex-direction: column;
+}
+
+#country-top {
+    display: flex;
+    align-items: center;
+}
+
+#country-flag:hover {
+    cursor: default;
+    border: solid 2px black
+}
+
+.hidden {
+    display: none;
+}
+
+#country-name {
+    color: var(--white);
+    font-size: 3rem;
+}
+
+#wiki-data {
+    color: var(--white);
+}
+
+.unicode {
+    display: none;
+}
+
+.hatnote {
+    display: none;
+}
+
+.infobox {
+    display: none;
+}
+
+.mw-editsection {
+    display: none;
+}
+
+#See_also {
+    display: none;
+}
+
+#Notes {
+    display: none;
+}
+
+#References {
+    display: none;
+}
+
+.reflist {
+    display: none;
+}
+
+#Further_reading {
+    display: none;
+}
+
+.refbegin {
+    display: none;
+}
+
+#External_links {
+    display: none;
+}
+
+.external {
+    display: none;
+}
+
+.mw-redirect {
+    display: none;
+}
+
+dt {
+    display: none;
+}
+
+.side-box {
+    display: none;
+}
+
+tbody {
+    display: none;
+}
+
+.navbox {
+    display: none;
+}
+
+.navbox-styles {
+    display: none;
+}
+
+.portal-bar {
+    display: none!important;
+}
+
+#coordinates {
+    display: none;
+}
+
+ul li {
+    display: none;
+}
+
+.toclevel-1 {
+    display: block!important;
+}
+
+.tocsection-38 {
+    display: none!important;
+}
+
+.tocsection-39 {
+    display: none!important;
+}
+
+.tocsection-40 {
+    display: none!important;
+}
+
+.tocsection-41 {
+    display: none!important;
+}
+
+.tocsection-42 {
+    display: none!important;
+}
+
+.noprint {
+    display: none;
+}
+
+#Bibliography {
+    display: none;
+}
+
+#Video_links {
+    display: none;
+}
+
+#Footnotes {
+    display: none;
+}
+
+#Citations {
+    display: none;
+}
+
+a {
+    color: var(--pink);
+}

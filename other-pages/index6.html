@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style6.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Hallo Welt!!</h1>
+
+    </header>
+    <main>
+        <div id="buttons-flags">
+            <div>
+                <button onclick="goToEnglish()">Englisch</button>
+                <button onclick="goToSpanish()">Spanisch</button>
+                <button onclick="goToFrench()">Französisch</button>
+            </div>
+            <div>
+                <button onclick="goToItalian()">Italienisch</button>
+                <button onclick="goToRussian()">Russisch</button>
+                <button onclick="goToChinese()">Chinesisch</button>
+            </div>
+            <div>
+                <button onclick="goToHindi()">Hindi</button>
+                <button onclick="goToArabic()">Arabisch</button>
+                <button onclick="goToJapanese()">Japanisch</button>
+            </div>
+            <div id="flags">
+                <div>
+                    <img src="../assets/images/Germany Flag.png" alt="Germany" title="Germany" onclick="flagWikipedia()">
+                    <img src="../assets/images/Austria Flag.png" alt="Austria" title="Austria" onclick="flagWikipedia()">
+                    <img src="../assets/images/Belgium Flag.png" alt="Belgium" title="Belgium" onclick="flagWikipedia()">
+                    <img src="../assets/images/Luxembourg Flag.png" alt="Luxembourg" title="Luxembourg" onclick="flagWikipedia()">
+                </div>
+                <div>
+                    <img src="../assets/images/Swizerland Flag.png" alt="Switzerland" title="Switzerland" onclick="flagWikipedia()">
+                    <img src="../assets/images/Liechtenstein Flag.png" alt="Liechtenstein" title="Liechtenstein" onclick="flagWikipedia()">
+                </div>
+            </div>
+        </div>
+        <div id="wiki-section">
+            <div id="country-top">
+                <img src="" alt="country flag" id="country-flag" class="hidden">
+                <h2 id="country-name"></h2>
+            </div>
+            <div id="wiki-data"></div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../assets/javascript/onescript.js"></script>
+    <script src="../assets/javascript/flags.js" ></script>
+</body>
+</html>

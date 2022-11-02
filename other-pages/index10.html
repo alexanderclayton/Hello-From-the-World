@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style10.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>こんにちは世界！！</h1>
+
+    </header>
+    <main>
+        <div id="buttons-flags">
+            <div>
+                <button onclick="goToEnglish()">英語</button>
+                <button onclick="goToSpanish()">スペイン語</button>
+                <button onclick="goToFrench()">フランス語</button>
+            </div>
+            <div>
+                <button onclick="goToItalian()">イタリアの</button>
+                <button onclick="goToRussian()">ロシア</button>
+                <button onclick="goToGerman()">ドイツ人</button>
+            </div>
+            <div>
+                <button onclick="goToChinese()">ドイツ人</button>
+                <button onclick="goToHindi()">ヒンディー語</button>
+                <button onclick="goToArabic()">アラビア語</button>
+            </div>
+            <div id="flags">
+                <div>
+                    <img src="../assets/images/Japan Flag.png" alt="Japan" title="Japan" onclick="flagWikipedia()">
+                    <img src="../assets/images/Palau Flag.png" alt="Palau" title="Palau" onclick="flagWikipedia()">
+                </div>
+            </div>
+        </div>
+        <div id="wiki-section">
+            <div id="country-top">
+                <img src="" alt="country flag" id="country-flag" class="hidden">
+                <h2 id="country-name"></h2>
+            </div>
+            <div id="wiki-data"></div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../assets/javascript/onescript.js"></script>
+    <script src="../assets/javascript/flags.js" ></script>
+</body>
+</html>

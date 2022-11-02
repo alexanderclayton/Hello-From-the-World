@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style8.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>नमस्ते दुनिया!!</h1>
+
+    </header>
+    <main>
+        <div id="buttons-flags">
+            <div>
+                <button onclick="goToEnglish()">अंग्रेज़ी</button>
+                <button onclick="goToSpanish()">स्पैनिश</button>
+                <button onclick="goToFrench()">फ्रेंच</button>
+            </div>
+            <div>
+                <button onclick="goToItalian()">इतालवी</button>
+                <button onclick="goToRussian()">रूसी</button>
+                <button onclick="goToGerman()">जर्मन</button>
+            </div>
+            <div>
+                <button onclick="goToChinese()">चीनी</button>
+                <button onclick="goToArabic()">अरबी</button>
+                <button onclick="goToJapanese()">जापानी</button>
+            </div>
+            <div id="flags">
+                <div>
+                    <img src="../assets/images/India Flag.png" alt="India" title="India" onclick="flagWikipedia()">
+                </div>
+            </div>
+        </div>
+        <div id="wiki-section">
+            <div id="country-top">
+                <img src="" alt="country flag" id="country-flag" class="hidden">
+                <h2 id="country-name"></h2>
+            </div>
+            <div id="wiki-data"></div>
+            
+        </div>
+    </main>
+    <footer>
+
+    </footer>
+    <script src="../assets/javascript/onescript.js"></script>
+    <script src="../assets/javascript/flags.js" ></script>
+</body>
+</html>
